@@ -1,19 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.bignerdranch.android.gefins.MainActivity">
+    android:gravity="center"
+    android:orientation="vertical">
 
-    <EditText
-        android:id="@+id/psw"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:inputType="textPassword"
-        tools:layout_editor_absoluteX="85dp"
-        tools:layout_editor_absoluteY="232dp" />
 
     <TextView
         android:id="@+id/texti1"
@@ -25,6 +18,31 @@
         tools:layout_editor_absoluteX="87dp"
         tools:layout_editor_absoluteY="28dp" />
 
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/notandanafn"
+        tools:layout_editor_absoluteX="85dp"
+        tools:layout_editor_absoluteY="109dp" />
+
+    <EditText
+        android:id="@+id/psw"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPassword"
+        tools:layout_editor_absoluteX="85dp"
+        tools:layout_editor_absoluteY="232dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/lykilord"
+        tools:layout_editor_absoluteX="85dp"
+        tools:layout_editor_absoluteY="209dp" />
+
     <EditText
         android:id="@+id/user"
         android:layout_width="wrap_content"
@@ -34,21 +52,6 @@
         tools:layout_editor_absoluteX="85dp"
         tools:layout_editor_absoluteY="128dp" />
 
-    <TextView
-        android:id="@+id/textView2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/notandanafn"
-        tools:layout_editor_absoluteX="85dp"
-        tools:layout_editor_absoluteY="109dp" />
-
-    <TextView
-        android:id="@+id/textView3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/lykilord"
-        tools:layout_editor_absoluteX="85dp"
-        tools:layout_editor_absoluteY="209dp" />
 
     <Button
         android:id="@+id/skra_inn"
@@ -65,4 +68,8 @@
         android:text="@string/nyr_notandi"
         tools:layout_editor_absoluteX="134dp"
         tools:layout_editor_absoluteY="363dp" />
-</android.support.constraint.ConstraintLayout>
+
+
+
+
+</LinearLayout>
